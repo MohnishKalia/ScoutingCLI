@@ -87,5 +87,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# generated json
+# generated json and exe
 data/
+cli.exe
