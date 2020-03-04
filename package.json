@@ -1,0 +1,32 @@
+{
+  "name": "scouting-cli",
+  "version": "1.0.0",
+  "description": "ScoutingCLI",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "pkg cli.js --targets node12",
+    "lint": "npx eslint ./cli.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohnishKalia/ScoutingCLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohnishKalia/ScoutingCLI/issues"
+  },
+  "homepage": "https://github.com/MohnishKalia/ScoutingCLI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.0.6",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
